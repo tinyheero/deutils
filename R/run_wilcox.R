@@ -5,7 +5,7 @@
 #' @param groupB Sample names from Group B
 #' @param pairedFlag Run a paired wilcox mode
 #' @export
-run_de_test <- function(vals, groupA, groupB, pairedFlag = FALSE) {
+run_wilcox_test <- function(vals, groupA, groupB, pairedFlag = FALSE) {
   res <- try(wilcox.test(x = vals[groupA], y = vals[groupB], 
                          paired = pairedFlag))
 
