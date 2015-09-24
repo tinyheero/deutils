@@ -5,4 +5,6 @@ Authors@R: person("Fong Chun", "Chan", email = "fongchunchan@gmail.com", role = 
 Description: Provides various differential expression utility functions
 Depends: R (>= 3.2.2)
 License: MIT
+Imports:
+	dplyr (>= 0.4.3)
 LazyData: true
